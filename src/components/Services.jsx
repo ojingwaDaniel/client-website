@@ -16,23 +16,27 @@ const Services = () => (
       {services.map((service, i) => (
         <motion.div
           key={i}
-          className="service-card bg-white shadow-lg rounded-xl p-6 overflow-hidden"
+          className="service-card rounded-lg overflow-hidden bg-white shadow-md"
           whileHover="hover"
         >
+          {/* Image fills container, no whitespace */}
           <motion.img
             src={service.image}
             alt={service.title}
-            className="w-full h-40 object-cover object-top rounded-md"
+            className="w-full h-40 object-cover block"
             variants={{
-              hover: { scale: 1.1 }, 
+              hover: { scale: 1.1 },
             }}
             transition={{ duration: 0.3 }}
           />
 
-          <h3 className="text-xl font-semibold mt-4">{service.title}</h3>
-          <p className="text-gray-600 mt-2 leading-relaxed">
-            {service.description}
-          </p>
+          {/* Content area */}
+          <div className="p-4">
+            <h3 className="text-xl font-semibold">{service.title}</h3>
+            <p className="text-gray-600 mt-2 leading-relaxed">
+              {service.description}
+            </p>
+          </div>
         </motion.div>
       ))}
     </div>
