@@ -1,4 +1,4 @@
-import React from "react";
+
 import heroImage from "../assets/images/hero-image.jpg";
 
 const Hero = () => {
@@ -10,8 +10,8 @@ const Hero = () => {
         <h1 className="hero-title">
           Welcome to <span>Bildup Marketing Agency</span>
         </h1>
-        <h2>8 Years of Delivering:</h2>
-        <ul>
+        <h2 className="hero-tagline">8 Years of Delivering:</h2>
+        <ul className="hero-bullets">
           <li>Data-Driven Disruption</li>
           <li>Compelling Stories</li>
           <li>Tailored Strategies</li>

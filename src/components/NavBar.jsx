@@ -4,11 +4,11 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Logo from "../assets/images/logo/logo.png";
 
 const SECTIONS = [
-  "services",
-  "about",
-  "clients",
-  "reviews",
-  "contact",
+  "SERVICES",
+  "ABOUT",
+  "CLIENTS",
+  "REVIEWS",
+  "CONTACT",
 ];
 
 const Navbar = () => {

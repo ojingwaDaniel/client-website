@@ -1,14 +1,14 @@
 
 
-import kfc from "../assets/images/brands/kfc.jpg";
-import dal from "../assets/images/brands/dark-and-lovely.jpg";
-import andrews from "../assets/images/brands/andrews.jpg";
-import ashar from "../assets/images/brands/ashar.jpg";
-import boutique from "../assets/images/brands/boutique.jpg";
-import happy from "../assets/images/brands/happy-poppers.jpg";
-import kashrite from "../assets/images/brands/kashrite.jpg";
-import ihp from "../assets/images/brands/ihp.jpg";
-import kitchen from "../assets/images/brands/kitchen.jpg";
+import kfc from "../assets/images/BildUp/1.png";
+import dal from "../assets/images/BildUp/2.png";
+import andrews from "../assets/images/BildUp/3.png";
+import ashar from "../assets/images/BildUp/4.png";
+import boutique from "../assets/images/BildUp/5.png";
+import happy from "../assets/images/BildUp/6.png";
+import kashrite from "../assets/images/BildUp/7.png";
+import ihp from "../assets/images/BildUp/8.png";
+import kitchen from "../assets/images/BildUp/9.png";
 
 export const clientImages = [
   kfc,

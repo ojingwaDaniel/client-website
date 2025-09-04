@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Instagram, Mail, Phone } from "lucide-react"; // ✅ Correct imports
+import { Instagram, Mail, Phone } from "lucide-react"; 
 
 const Contact = () => {
   const handleRedirect = (type) => {

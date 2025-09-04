@@ -12,6 +12,7 @@ html,
   margin: 0;
   padding: 0;
   height: 100%;
+  z-index: 0;
 }
 
 nav {
@@ -32,6 +33,7 @@ nav {
 .nav-links {
   display: flex;
   gap: 1rem;
+  font-weight: bold;
 }
 .nav-link {
   padding: 0.5rem;
@@ -83,64 +85,6 @@ nav {
   background: var(--bg);
   text-align: center;
 }
-.hero {
-  background: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.hero-title {
-  font-size: 4rem;
-  font-weight: bold;
-}
-.hero-sub-title-1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-.hero-sub-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-.underline {
-  width: 20rem;
-  height: 0.3rem;
-  background: var(--primary);
-  margin: 1.5rem auto;
-  animation: slide-in 1.5s;
-}
-@keyframes slide-in {
-  from {
-    width: 0;
-  }
-  to {
-    width: 60px;
-  }
-}
-
-/* .section-title { font-size:4rem; color:var(--primary); margin-bottom:4rem; } */
-.custom-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-}
-.client-layout {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-}
-
-
-.card,
-.client-logo {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-.client-grid {
-  justify-items: center;
-}
-
 .hero-section {
   position: relative;
   height: 100vh;
@@ -150,6 +94,12 @@ nav {
   justify-content: center;
   overflow: hidden;
 }
+.hero {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .hero-bg {
   position: absolute;
@@ -158,9 +108,11 @@ nav {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 60% 28%;
+  object-position: 80% 20%;
   z-index: 0;
   opacity: 0.6;
+  transform: scale(0.99); /* 95% of original size */
+  transition: transform 0.3s ease;
 }
 
 .overlay {
@@ -193,8 +145,8 @@ nav {
 
 .hero-tagline {
   font-size: 1.6rem;
-  margin-bottom: 2rem;
   color: var(--bg);
+  margin-bottom: 30px;
 }
 
 .hero-bullets {
@@ -210,11 +162,6 @@ nav {
 .hero-bullets li {
   opacity: 0;
   animation: fadeInList 0.5s ease forwards;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
 }
 
 .hero-bullets li:nth-child(1) {
@@ -243,6 +190,38 @@ nav {
 }
 .hero-bullets li:nth-child(9) {
   animation-delay: 1.9s;
+}
+
+@keyframes slide-in {
+  from {
+    width: 0;
+  }
+  to {
+    width: 60px;
+  }
+}
+
+/* .section-title { font-size:4rem; color:var(--primary); margin-bottom:4rem; } */
+.custom-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.client-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.card,
+.client-logo {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.client-grid {
+  justify-items: center;
 }
 
 /* Animations */
