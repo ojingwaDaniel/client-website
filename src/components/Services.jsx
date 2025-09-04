@@ -23,7 +23,7 @@ const Services = () => (
           <motion.img
             src={service.image}
             alt={service.title}
-            className="w-full h-40 object-cover block"
+            className="w-full h-40 object-cover object-[50%_20%] block"
             variants={{
               hover: { scale: 1.1 },
             }}

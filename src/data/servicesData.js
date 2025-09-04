@@ -65,7 +65,7 @@ export const services = [
   {
     title: "BRAND DEVELOPMENT & STRATEGY",
     image:
-      "https://images.pexels.com/photos/3727511/pexels-photo-3727511.jpeg?cs=srgb&dl=pexels-shvetsa-3727511.jpg&fm=jpg (Pexels)",
+      "https://plus.unsplash.com/premium_photo-1707155465527-c5a2935b21cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGJsYWNrJTIwQlJBTkQlMjBERVZFTE9QTUVOVCUyMCUyNiUyMFNUUkFURUdZfGVufDB8fDB8fHww",
     description:
       "Build a brand that stands the test of time with comprehensive strategy, identity design, and market positioning services.",
   },
