@@ -3,12 +3,13 @@ import { motion } from "framer-motion";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Logo from "../assets/images/logo/logo.png";
 
+// Use lowercase IDs that match your section IDs
 const SECTIONS = [
-  "SERVICES",
-  "ABOUT",
-  "CLIENTS",
-  "REVIEWS",
-  "CONTACT",
+  { name: "SERVICES", id: "services" },
+  { name: "ABOUT", id: "about" },
+  { name: "CLIENTS", id: "clients" },
+  { name: "REVIEWS", id: "reviews" },
+  { name: "CONTACT", id: "contact" },
 ];
 
 const Navbar = () => {
@@ -24,8 +25,22 @@ const Navbar = () => {
 
   const scrollTo = (id) => {
     setMenuOpen(false);
-    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
-    setCurrent(id);
+
+    // Add a small delay to ensure the menu is closed before scrolling
+    setTimeout(() => {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+        setCurrent(id);
+      } else {
+        console.error(`Element with id ${id} not found`);
+        // Fallback: scroll to top if section not found
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    }, 100);
   };
 
   return (
@@ -35,15 +50,17 @@ const Navbar = () => {
           src={Logo}
           alt="Logo"
           className="h-20 md:h-24 lg:h-28 w-auto max-w-[240px] transition-transform duration-500 hover:scale-110 drop-shadow-[0_0_10px_#feb3eb]"
+          onClick={() => scrollTo("hero")}
+          style={{ cursor: "pointer" }}
         />
         <div className="nav-links">
-          {SECTIONS.map((id) => (
+          {SECTIONS.map((section) => (
             <button
-              key={id}
-              className={`nav-link ${current === id ? "active" : ""}`}
-              onClick={() => scrollTo(id)}
+              key={section.id}
+              className={`nav-link ${current === section.id ? "active" : ""}`}
+              onClick={() => scrollTo(section.id)}
             >
-              {id}
+              {section.name}
             </button>
           ))}
         </div>
@@ -63,13 +80,13 @@ const Navbar = () => {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
         >
-          {SECTIONS.map((id) => (
+          {SECTIONS.map((section) => (
             <button
-              key={id}
+              key={section.id}
               className="mobile-link"
-              onClick={() => scrollTo(id)}
+              onClick={() => scrollTo(section.id)}
             >
-              {id}
+              {section.name}
             </button>
           ))}
         </motion.div>
