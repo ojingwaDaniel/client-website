@@ -10,18 +10,10 @@ const Hero = () => {
         <h1 className="hero-title">
           Welcome to <span>Bildup Marketing Agency</span>
         </h1>
-        <h2 className="hero-tagline">8 Years of Delivering:</h2>
-        <ul className="hero-bullets">
-          <li>Data-Driven Disruption</li>
-          <li>Compelling Stories</li>
-          <li>Tailored Strategies</li>
-          <li>Measurable Success</li>
-          <li>Comprehensive Planning</li>
-          <li>Strategic Insight</li>
-          <li>Digital Transformation</li>
-          <li>Expert Management</li>
-          <li>Innovative Campaigns</li>
-        </ul>
+        <p className="hero-bullets">
+          Welcome to Buildup Marketing Agency. At Bildup, we don’t just deliver
+          marketing we build movements.
+        </p>
       </div>
     </section>
   );
