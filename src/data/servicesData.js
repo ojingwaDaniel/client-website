@@ -1,108 +1,103 @@
+import onlineReputation from "../assets/images/BildUp/online-reputation.jpeg"
+import training from "../assets/images/BildUp/training.jpeg"
+import paidAdsCategory from "../assets/images/BildUp/paid-ad-category.jpeg"
+import experienceIdeation from "../assets/images/BildUp/experience-ideation.jpeg"
+import UgcInfluencer from "../assets/images/BildUp/UGC-Influencer.PNG"
+import personalBranding from "../assets/images/BildUp/personal-branding-management.JPG"
 export const services = [
   {
     title: "SOCIAL MEDIA MARKETING",
     image:
       "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?cs=srgb&dl=pexels-tracy-le-blanc-67789-607812.jpg&fm=jpg",
-
-    description: `We help your brand grow with personalized social media strategies. Here's how we help:
-  
-  Custom Strategy: Tailored plans for organic growth.
-
-  Influencer Marketing: Connecting with the right influencers to expand your reach.
-
-  Marketing Consultation: Expert advice to optimize your social presence.
-
-  Ads Targeting: Precise and detailed ads that convert.
-
-  Graphic Design: Eye-catching visuals that elevate your brand.
-
-  Analytics: Insights to refine and optimize performance.
-
-  With us, it's not just about posting; it's about creating real, measurable growth for your brand.`,
+    description: `Our social media marketing services help businesses grow their online presence and engage with their target audience effectively. At BildUp we specialize in social media strategy, content creation, and campaign management across platforms like Facebook, Instagram, LinkedIn, and TikTok. By leveraging analytics, trends, and performance tracking, we ensure your brand stays visible and competitive online.`,
+    keywords: "social media marketing services, Instagram marketing, TikTok growth, social media management"
   },
   {
     title: "CONTENT CREATION",
     image:
-      "https://images.pexels.com/photos/2041396/pexels-photo-2041396.jpeg?cs=srgb&dl=pexels-cowomen-1058097-2041396.jpg&fm=jpg (Pexels)",
+      "https://images.pexels.com/photos/2041396/pexels-photo-2041396.jpeg?cs=srgb&dl=pexels-cowomen-1058097-2041396.jpg&fm=jpg",
     description:
-      "At BILDUP, we don't just create content; we create conversations. Our Content Creation Service is designed to spark interest, foster engagement, and make your brand unforgettable. From killer visuals that stop the scroll to compelling captions that drive action, we craft every piece with your audience in mind. We make sure your content is not just seen, but felt—creating a real connection that moves the needle. Ready to turn your social media into a powerful tool? Let us handle the creation",
+      "Our social media marketing services help businesses grow their online presence and engage with their target audience effectively. At BildUp we specialize in social media strategy, content creation, and campaign management across platforms like Facebook, Instagram, LinkedIn, and TikTok. By leveraging analytics, trends, and performance tracking, we ensure your brand stays visible and competitive online.",
+    keywords: "social media marketing services, Instagram marketing, TikTok growth, social media management"
   },
   {
     title: "TRAINING & WORKSHOPS",
-    image:
-      "https://images.pexels.com/photos/8761351/pexels-photo-8761351.jpeg?cs=srgb&dl=pexels-pavel-danilyuk-8761351.jpg&fm=jpg (Pexels)",
-    description:
-      "We empower social media managers, business owners, and their teams with their skills and strategies needed to master social media. From creating impactful content to building  engagement, our customized sessions are practical, results-driven. and tailored to meet your goals.",
+    image: training,
+    description: "At BildUp we believe in building skills that matter. Our training and workshops empower businesses, entrepreneurs, and professionals with practical marketing skills. We provide hands-on learning experiences on social media marketing, content creation, digital strategy, and analytics to help you or your team stay ahead in the ever-evolving digital landscape.",
+    keywords: "marketing training workshops, digital marketing training, corporate branding training"
   },
   {
     title: "PAID ADS & PERFORMANCE MARKETING",
-    image:
-      "https://images.pexels.com/photos/15096572/pexels-photo-15096572.jpeg?cs=srgb&dl=pexels-srijonism-15096572.jpg&fm=jpg (Pexels)",
+    image: paidAdsCategory,
     description:
-      "Maximize your ROI with expertly managed paid ad campaigns on platforms like Google, Meta, and beyond. We turn clicks into conversions.",
+      "At BildUp we believe in building skills that matter. Our training and workshops empower businesses, entrepreneurs, and professionals with practical marketing skills. We provide hands-on learning experiences on social media marketing, content creation, digital strategy, and analytics to help you or your team stay ahead in the ever-evolving digital landscape.",
+    keywords: "marketing training workshops, digital marketing training, corporate branding training"
   },
   {
     title: "DATA ANALYTICS & AUDIENCE INSIGHTS",
     image:
-      "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?cs=srgb&dl=pexels-negativespace-97080.jpg&fm=jpg (Pexels)",
+      "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?cs=srgb&dl=pexels-negativespace-97080.jpg&fm=jpg",
     description:
-      "Harness the power of data to understand your audience and refine your strategies for optimal performance and measurable results while you enjoy the results.",
+      "Data drives smarter decisions. With BildUp's analytics and audience insights, you'll understand customer behavior and market trends, track performance, and identify opportunities for growth. We turn numbers into strategies, giving your business the competitive edge it needs.",
+    keywords: "marketing analytics services, audience insights, data-driven marketing strategy"
   },
   {
     title: "ONLINE REPUTATION MANAGEMENT",
-    image:
-      "https://images.pexels.com/photos/11894045/pexels-photo-11894045.jpeg?cs=srgb&dl=pexels-towfiqu-barbhuiya-3440682-11894045.jpg&fm=jpg (Pexels)",
+    image: onlineReputation,
     description:
-      "afeguard your brand's image with proactive reputation management, ensuring trust and credibility in the digital landscape.",
+      "Data drives smarter decisions. With BildUp's analytics and audience insights, you'll understand customer behavior and market trends, track performance, and identify opportunities for growth. We turn numbers into strategies, giving your business the competitive edge it needs.",
+    keywords: "marketing analytics services, audience insights, data-driven marketing strategy"
   },
   {
     title: "PERSONAL BRANDING & MANAGEMENT",
-    image:
-      "https://images.pexels.com/photos/13375849/pexels-photo-13375849.jpeg?cs=srgb&dl=pexels-sandro-tavares-260503371-13375849.jpg&fm=jpg (Pexels)",
-    description:
-      "Empower leaders, public figures, celebrities and professionals with strong, authentic personal brands that stand out in their industries.",
+    image: personalBranding,
+    description: "Data drives smarter decisions. With BildUp's analytics and audience insights, you'll understand customer behavior and market trends, track performance, and identify opportunities for growth. We turn numbers into strategies, giving your business the competitive edge it needs.",
+    keywords: "marketing analytics services, audience insights, data-driven marketing strategy"
   },
   {
     title: "BRAND DEVELOPMENT & STRATEGY",
     image:
       "https://plus.unsplash.com/premium_photo-1707155465527-c5a2935b21cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGJsYWNrJTIwQlJBTkQlMjBERVZFTE9QTUVOVCUyMCUyNiUyMFNUUkFURUdZfGVufDB8fDB8fHww",
     description:
-      "Build a brand that stands the test of time with comprehensive strategy, identity design, and market positioning services.",
+      "Data drives smarter decisions. With BildUp's analytics and audience insights, you'll understand customer behavior and market trends, track performance, and identify opportunities for growth. We turn numbers into strategies, giving your business the competitive edge it needs.",
+    keywords: "marketing analytics services, audience insights, data-driven marketing strategy"
   },
   {
     title: "MARKETING & CONTENT STRATEGY",
     image:
-      "https://images.pexels.com/photos/7710055/pexels-photo-7710055.jpeg?cs=srgb&dl=pexels-a-darmel-7710055.jpg&fm=jpg (Pexels)",
+      "https://images.pexels.com/photos/7710055/pexels-photo-7710055.jpeg?cs=srgb&dl=pexels-a-darmel-7710055.jpg&fm=jpg",
     description:
-      "Develop a roadmap to success with strategies that align your brand's goals with actionable, impactful campaigns.",
+      "Smart strategy drives successful campaigns. We design tailored marketing and content strategies that align with your business goals. From content planning to full- funnel marketing, we integrate audience research, storytelling, and distribution planning, to ensure that your brand speaks the right message to the right audience at the right time thereby increasing engagement and drive growth.",
+    keywords: "marketing strategy agency, content strategy services, content planning"
   },
-
   {
     title: "UGC & INFLUENCER MARKETING MANAGEMENT",
-    image:
-      "https://images.pexels.com/photos/6954135/pexels-photo-6954135.jpeg?cs=srgb&dl=pexels-george-milton-6954135.jpg&fm=jpg (Pexels)",
+    image: UgcInfluencer,
     description:
-      "At BILDUP, we make influencers your brand's secret weapon. We identify the right creators, manage authentic collaborations, and ensure every partnership drives real results. It's influencer marketing done right—simple, strategic, and effective.",
+      "Smart strategy drives successful campaigns. We design tailored marketing and content strategies that align with your business goals. From content planning to full- funnel marketing, we integrate audience research, storytelling, and distribution planning, to ensure that your brand speaks the right message to the right audience at the right time thereby increasing engagement and drive growth.",
+    keywords: "marketing strategy agency, content strategy services, content planning"
   },
   {
     title: "SEARCH ENGINE OPTIMIZATION (SEO)",
     image:
-      "https://images.pexels.com/photos/67112/pexels-photo-67112.jpeg?cs=srgb&dl=pexels-caio-67112.jpg&fm=jpg (Pexels)",
+      "https://images.pexels.com/photos/67112/pexels-photo-67112.jpeg?cs=srgb&dl=pexels-caio-67112.jpg&fm=jpg",
     description:
-      "Boost your online visibility and rank higher on search engines with our precision-driven SEO strategies, ensuring your brand stands out.",
+      "Get found online with BildUp's SEO services. Our SEO services ensure your business ranks higher on search engines. We focus on on-page optimization, keyword research, technical SEO, and content improvements to increase website traffic and make your brand more discoverable online.",
+    keywords: "SEO services, search engine optimization agency, local SEO optimization, SEO content writing"
   },
   {
     title: "EXPERIENCE IDEATION & DESIGN",
-    image:
-      "https://images.pexels.com/photos/6648439/pexels-photo-6648439.jpeg?cs=srgb&dl=pexels-cottonbro-6648439.jpg&fm=jpg (Pexels)",
+    image: experienceIdeation,
     description:
-      "Bring your brand to life with experiential concepts and designs that leave lasting impressions. From virtual to real-world activations, we craft experiences that captivate.",
+      "Get found online with BildUp's SEO services. Our SEO services ensure your business ranks higher on search engines. We focus on on-page optimization, keyword research, technical SEO, and content improvements to increase website traffic and make your brand more discoverable online.",
+    keywords: "SEO services, search engine optimization agency, local SEO optimization, SEO content writing"
   },
   {
     title: "BRAND NARRATIVE & STORYTELLING",
     image:
       "https://images.pexels.com/photos/1181311/pexels-photo-1181311.jpeg?cs=srgb&dl=pexels-divinetechygirl-1181311.jpg&fm=jpg",
     description:
-      "Craft compelling stories that connect emotionally with your audience. From brand messaging to content strategy, we help you tell your story in a way that resonates.",
+      "Get found online with BildUp's SEO services. Our SEO services ensure your business ranks higher on search engines. We focus on on-page optimization, keyword research, technical SEO, and content improvements to increase website traffic and make your brand more discoverable online.",
+    keywords: "SEO services, search engine optimization agency, local SEO optimization, SEO content writing"
   },
 ];

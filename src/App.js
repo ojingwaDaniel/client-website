@@ -18,8 +18,8 @@ function App() {
       <div className="App font-sans text-gray-900">
         <Navbar />
         <Hero />
-        <Services/>
         <About />
+        <Services/>
         <AboutCIM />
         <Clients />
         <Reviews />
