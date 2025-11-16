@@ -101,10 +101,10 @@ const Clients = () => {
           className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-20 max-w-4xl mx-auto"
         >
           {[
-            { number: "50+", label: "Happy Clients" },
-            { number: "200+", label: "Projects Completed" },
+            { number: "9+", label: "Happy Clients" },
+            { number: "30+", label: "Projects Completed" },
             { number: "98%", label: "Client Satisfaction" },
-            { number: "15+", label: "Industries Served" }
+            { number: "10+", label: "Industries Served" }
           ].map((stat, index) => (
             <motion.div
               key={index}

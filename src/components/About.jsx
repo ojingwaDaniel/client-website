@@ -1,18 +1,18 @@
 import React from "react";
 import { motion } from "framer-motion";
-import BrandingImage from "../assets/images/BildUp/branding-image.jpeg";
+import BrandingImage from "../assets/images/BildUp/1.jpg";
 
 const About = () => {
   return (
     <section id="about" className="relative min-h-screen bg-slate-950 py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-      {/* Animated background elements - More subtle */}
+     
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-0 right-0 w-96 h-96 rounded-full filter blur-3xl opacity-10" style={{ backgroundColor: '#feb3eb' }}></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 rounded-full filter blur-3xl opacity-10" style={{ backgroundColor: '#feb3eb' }}></div>
       </div>
 
       <div className="relative max-w-7xl mx-auto">
-        {/* Header Section */}
+      
         <motion.div
           initial={{ opacity: 0, y: -30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -36,7 +36,7 @@ const About = () => {
         >
           <div className="bg-slate-900/80 backdrop-blur-lg rounded-3xl p-8 md:p-12 border shadow-2xl" style={{ borderColor: '#feb3eb' }}>
             <p className="text-white text-lg md:text-xl leading-relaxed">
-              At BildUp, we are not just a Digital marketing & Advertising agency, we are your partner in building brands that stand out. We craft bold strategies, compelling content, and authentic connections that turn your audiences into loyal clients and customers. With expert experience across industries like <span className="font-semibold" style={{ color: '#feb3eb' }}>beauty, food, tech, real estate, fashion, health & wellness and luxury</span>, we deliver results that grow your business and leave a lasting impact. With BildUp, <span className="font-semibold" style={{ color: '#feb3eb' }}>results are guaranteed</span>. We make strategic digital marketing decisions for your brand to ensure your business objectives are creatively brought to life!
+              At BildUp, we are not just a Digital marketing & Advertising agency, we are your partner in building brands that stand out. We craft bold strategies, compelling content, and authentic connections that turn your audiences into loyal clients and customers. With expert experience across industries like <span className="font-semibold" style={{ color: '#feb3eb' }}>beauty, food, tech, real estate, fashion, health & wellness and luxury</span>, we deliver results that grow your business and leave a lasting impact. With BildUp, <span className="font-semibold" style={{ color: '#feb3eb' }}>results are guaranteed</span>. We make strategic digital marketing decisions for your brand to ensure your business objectives are creatively brought to live!
             </p>
           </div>
         </motion.div>
@@ -77,10 +77,10 @@ const About = () => {
               Why Choose BildUp?
             </h2>
             <p className="text-gray-100 text-lg leading-relaxed mb-8">
-              At BildUp, we don't just deliver marketing, we are building brand's legacy. Born from the phrase "to build something from the ground up," BildUp represents creativity, growth, and transformation. We exist to help brands rise amidst the noise and connect with people in powerful, lasting ways.
+             At BildUp, we don’t just deliver marketing, we are building brand’s legacy. Born from the phrase “to build something from the ground up,” BildUp represents creativity, growth, and transformation. We exist to help brands rise amidst the noise and connect with people in powerful, lasting ways.
             </p>
             <p className="text-gray-100 text-lg leading-relaxed">
-              We combine strategy, storytelling, and data-driven creativity to deliver marketing that not only performs but inspires. Whether it's social media marketing, content creation, paid advertising, or brand development, every project we handle is built on one core belief: <span className="font-semibold" style={{ color: '#feb3eb' }}>your brand deserves to grow, not just exist</span>.
+             We combine strategy, storytelling, and data-driven creativity to deliver marketing that not only performs but inspires. Whether it’s social media marketing, content creation, paid advertising, or brand development, every project we handle is built on one core belief, <span className="font-semibold" style={{ color: '#feb3eb' }}>your brand deserves to grow, not just exist</span>.
             </p>
           </motion.div>
         </div>
@@ -101,27 +101,27 @@ const About = () => {
             {[
               {
                 title: "Strategic Creativity",
-                description: "Every campaign we craft blends creative storytelling with smart marketing insights to achieve measurable results"
+                description: "Every campaign we craft blends creative storytelling with smart marketing insights to achieve measurable results."
               },
               {
                 title: "Results That Matter",
-                description: "From increased engagement to improved brand awareness, we focus on outcomes that grow your business and show obvious return on investment"
+                description: "From increased engagement to improved brand awareness, we focus on outcomes that grow your business and show obvious return on investment."
               },
               {
                 title: "Data-Driven Decisions",
-                description: "Our strategies are guided by audience insights, analytics, and performance tracking, not guesswork"
+                description: "Our strategies are guided by audience insights, analytics, and performance tracking, not guesswork."
               },
               {
                 title: "Human-Centered Approach",
-                description: "We build genuine connections between brands and people through authentic narratives and memorable experiences"
+                description: "We build genuine connections between brands and people through authentic narratives and memorable experiences."
               },
               {
                 title: "All-in-One Marketing Solution",
-                description: "From SEO & performance marketing to personal branding & portfolio management, or social media marketing & paid advertising, BildUp provides end-to-end marketing services that scale with you"
+                description: "From SEO & performance marketing to personal branding & portfolio management, or social media marketing & paid advertising, BildUp provides end-to-end marketing services that scale with you."
               },
               {
                 title: "Industry Expertise",
-                description: "With proven experience across beauty, food, tech, real estate, fashion, health & wellness, and luxury sectors, we understand your market deeply"
+                description: "With proven experience across beauty, food, tech, real estate, fashion, health & wellness, and luxury sectors, we understand your market deeply."
               }
             ].map((feature, index) => (
               <motion.div

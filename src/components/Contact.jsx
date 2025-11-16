@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Instagram, Mail, Phone } from "lucide-react"; 
+import whiteLogo from "../assets/images/logo/Bildup white logo.png"
 
 const Contact = () => {
   const handleRedirect = (type) => {
@@ -26,11 +27,7 @@ const Contact = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="contact-image-placeholder">
-            <div className="neon-circle-animation">
-              <span className="pulse-text">📡</span>
-            </div>
-          </div>
+        <img src={whiteLogo} alt="company-logo" className="w-700 h-auto"/>
         </motion.div>
 
         {/* Contact Text */}
