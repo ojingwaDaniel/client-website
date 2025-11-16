@@ -1,7 +1,5 @@
 import onlineReputation from "../assets/images/BildUp/online-reputation.jpeg"
-import training from "../assets/images/BildUp/training.jpeg"
 import paidAdsCategory from "../assets/images/BildUp/paid-ad-category.jpeg"
-import experienceIdeation from "../assets/images/BildUp/experience-ideation.jpeg"
 import UgcInfluencer from "../assets/images/BildUp/UGC-Influencer.PNG"
 import personalBranding from "../assets/images/BildUp/personal-branding-management.JPG"
 export const services = [
