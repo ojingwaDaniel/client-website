@@ -139,7 +139,7 @@ const Hero = () => {
         />
       </motion.div>
       
-      {/* Animated gradient overlay */}
+
       <motion.div 
         className="absolute inset-0 z-10"
         initial={{ opacity: 0 }}
@@ -150,7 +150,7 @@ const Hero = () => {
         }}
       />
       
-      {/* Dynamic gradient overlay */}
+      
       <motion.div 
         className="absolute inset-0 z-20"
         animate={{
