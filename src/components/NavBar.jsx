@@ -60,7 +60,8 @@ const Navbar = () => {
               <img
                 src={logo}
                 alt="BildUp Logo"
-                className="h-16 md:h-60 w-auto transition-all duration-300 hover:scale-110"
+                // Significantly increased sizes - h-28 on mobile and h-72 on desktop
+                className="h-28 md:h-72 w-auto transition-all duration-300 hover:scale-110"
                 style={{
                   filter: scrolled
                     ? "drop-shadow(0 0 8px #feb3eb)"
@@ -179,12 +180,12 @@ const Navbar = () => {
                 </button>
               </div>
 
-              {/* Mobile Logo */}
+             
               <div className="px-6 pb-8">
                 <img
                   src={logo}
                   alt="BildUp Logo"
-                  className="h-14 w-auto"
+                  className="h-28 w-auto" 
                   style={{ filter: "drop-shadow(0 0 8px #feb3eb)" }}
                 />
               </div>
