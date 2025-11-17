@@ -2,9 +2,31 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { services } from "../data/servicesData";
 
-
 const Services = () => {
   const [expandedCard, setExpandedCard] = useState(null);
+
+  // Custom object position for each service image to ensure heads are visible
+  const getImagePosition = (index, title) => {
+    // Specific fix for PERSONAL BRANDING & MANAGEMENT - adjust this percentage
+    if (title === "PERSONAL BRANDING & MANAGEMENT") {
+      return "center 20%"; // Move focus higher to show the head
+    }
+    
+    // Default positions for other images
+    const positions = [
+      "center 30%",  // SOCIAL MEDIA MARKETING
+      "center 40%",  // CONTENT CREATION
+      "center 35%",  // PAID ADS & PERFORMANCE MARKETING
+      "center 30%",  // DATA ANALYTICS & AUDIENCE INSIGHTS
+      "center 20%",  // PERSONAL BRANDING & MANAGEMENT (handled above)
+      "center 40%",  // BRAND DEVELOPMENT & STRATEGY
+      "center 35%",  // MARKETING & CONTENT STRATEGY
+      "center 30%",  // UGC & INFLUENCER MARKETING MANAGEMENT
+      "center 40%",  // SEARCH ENGINE OPTIMIZATION (SEO)
+      "center 35%",  // BRAND NARRATIVE & STORYTELLING
+    ];
+    return positions[index] || "center center";
+  };
 
   return (
     <section id="services" className="relative min-h-screen bg-black py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
@@ -89,12 +111,15 @@ const Services = () => {
                   borderColor: '#feb3eb',
                   boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)'
                 }}>
-                  {/* Image Section */}
-                  <div className="relative h-48 overflow-hidden">
+                  {/* Image Section - Using object-cover with custom positioning */}
+                  <div className="relative h-56 overflow-hidden">
                     <motion.img
                       src={service.image}
                       alt={service.title}
                       className="w-full h-full object-cover"
+                      style={{
+                        objectPosition: getImagePosition(index, service.title)
+                      }}
                       whileHover={{ scale: 1.15 }}
                       transition={{ duration: 0.6 }}
                     />
