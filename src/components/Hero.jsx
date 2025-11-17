@@ -65,11 +65,6 @@ const GradientOrb = () => {
 };
 
 const Hero = () => {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
 
   // Text animation variants
   const containerVariants = {
