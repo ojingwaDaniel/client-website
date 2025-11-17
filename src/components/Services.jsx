@@ -5,34 +5,32 @@ import { services } from "../data/servicesData";
 const Services = () => {
   const [expandedCard, setExpandedCard] = useState(null);
 
-  // Custom object position for each service image to ensure heads are visible
+  
   const getImagePosition = (index, title) => {
-    // Specific fix for PERSONAL BRANDING & MANAGEMENT - adjust this percentage
+    
     if (title === "PERSONAL BRANDING & MANAGEMENT") {
-      return "center 20%"; // Move focus higher to show the head
+      return "center 20%"; 
     }
     
-    // Default positions for other images
+    
     const positions = [
-      "center 30%",  // SOCIAL MEDIA MARKETING
-      "center 40%",  // CONTENT CREATION
-      "center 35%",  // PAID ADS & PERFORMANCE MARKETING
-      "center 30%",  // DATA ANALYTICS & AUDIENCE INSIGHTS
-      "center 20%",  // PERSONAL BRANDING & MANAGEMENT (handled above)
-      "center 40%",  // BRAND DEVELOPMENT & STRATEGY
-      "center 35%",  // MARKETING & CONTENT STRATEGY
-      "center 30%",  // UGC & INFLUENCER MARKETING MANAGEMENT
-      "center 40%",  // SEARCH ENGINE OPTIMIZATION (SEO)
-      "center 35%",  // BRAND NARRATIVE & STORYTELLING
+      "center 30%", 
+      "center 35%", 
+      "center 30%", 
+      "center 20%", 
+      "center 40%",  
+      "center 35%", 
+      "center 30%",  
+      "center 40%", 
+      "center 35%", 
     ];
     return positions[index] || "center center";
   };
 
   return (
     <section id="services" className="relative min-h-screen bg-black py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
-      {/* Unique geometric background pattern */}
+    
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {/* Diagonal lines pattern */}
         <div className="absolute inset-0" style={{
           backgroundImage: `repeating-linear-gradient(
             45deg,
