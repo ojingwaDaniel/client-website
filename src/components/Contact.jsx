@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Instagram, Mail, Phone } from "lucide-react"; 
-import whiteLogo from "../assets/images/logo/Bildup white logo.png"
+import whiteLogo from "../assets/images/logo/Bildup white logo.png";
 
 const Contact = () => {
   const handleRedirect = (type) => {
@@ -13,24 +13,22 @@ const Contact = () => {
         "_blank"
       );
     } else if (type === "whatsapp") {
-      window.open("https://wa.me/07087782222", "_blank");
+      window.open("https://wa.me/2347087782222", "_blank");
     }
   };
 
   return (
     <section id="contact" className="contact-section">
       <div className="contact-container">
-        {/* Visual Placeholder */}
         <motion.div
           className="contact-visual"
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
         >
-        <img src={whiteLogo} alt="company-logo" className="w-700 h-auto"/>
+          <img src={whiteLogo} alt="company-logo" className="w-700 h-auto" />
         </motion.div>
 
-        {/* Contact Text */}
         <motion.div
           className="contact-text"
           initial={{ opacity: 0, y: 40 }}
@@ -43,7 +41,6 @@ const Contact = () => {
             Reach out and let's make magic together.
           </p>
 
-          {/* CTA Button Group */}
           <div className="cta-buttons">
             <button
               onClick={() => handleRedirect("mail")}
