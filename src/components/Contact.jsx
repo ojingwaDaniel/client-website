@@ -13,7 +13,7 @@ const Contact = () => {
         "_blank"
       );
     } else if (type === "whatsapp") {
-      window.open("https://wa.me/2348012345678", "_blank");
+      window.open("https://wa.me/07087782222", "_blank");
     }
   };
 

@@ -9,6 +9,8 @@ import client6 from "../assets/images/BildUp/Transparent versions/6.png"
 import client7 from "../assets/images/BildUp/Transparent versions/7.png"
 import client8 from "../assets/images/BildUp/Transparent versions/8.png"
 import client9 from "../assets/images/BildUp/Transparent versions/9.png"
+import client10 from "../assets/images/brands/vroom.JPG";
+
 
 const clientImages = [
   client1,
@@ -19,7 +21,8 @@ const clientImages = [
   client6,
   client7,
   client8,
-  client9
+  client9,
+  client10
 ];
 
 const Clients = () => {
