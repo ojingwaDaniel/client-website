@@ -121,7 +121,7 @@ const Hero = () => {
   };
 
   // Split text into words for individual animation
-  const titleWords = "BildUp, from Vision to Viral.".split(" ");
+  const titleWords = "BildUp- from Vision to Viral.".split(" ");
 
   return (
     <section className="relative min-h-screen w-full overflow-hidden flex items-center justify-center pt-20 sm:pt-24">
@@ -188,8 +188,8 @@ const Hero = () => {
               variants={wordVariants}
               className="inline-block mr-4 last:mr-0 drop-shadow-2xl"
               style={{
-                color: word === "BildUp," || word === "Vision" || word === "Viral." ? '#feb3eb' : 'white',
-                textShadow: word === "BildUp," || word === "Vision" || word === "Viral." 
+                color: word === "BildUp" || word === "Vision" || word === "Viral." ? '#feb3eb' : 'white',
+                textShadow: word === "BildUp" || word === "Vision" || word === "Viral." 
                   ? '0 0 30px rgba(254,179,235,0.5), 0 0 60px rgba(254,179,235,0.3)'
                   : 'none',
               }}
